@@ -1,21 +1,26 @@
 import { ThemeProvider } from 'styled-components';
+import { BrowserRouter } from 'react-router-dom';
 
 import GlobalStyles from '../../assets/styles/global';
 import defaultTheme from '../../assets/styles/themes/default';
 
 import Header from '../Header';
+import PageRoutes from '../../Routes';
 
 import { Container } from './styles';
 
 export default function App() {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <GlobalStyles />
+    <BrowserRouter>
+      <ThemeProvider theme={defaultTheme}>
+        <GlobalStyles />
 
-      <Container>
-        <Header />
-      </Container>
+        <Container>
+          <Header />
+          <PageRoutes />
+        </Container>
 
-    </ThemeProvider>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
