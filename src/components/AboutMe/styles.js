@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 70px 48px;
+  margin: 70px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 
   .main_box {
-    margin-top: 100px;
     width: 48%;
+    max-width: 672px;
     color: #fff;
 
     h1 {
@@ -78,13 +79,13 @@ export const Container = styled.div`
   }
 
   .main_image {
-    width: 35%;
+    width: 48%;
+    min-width: 20%;
+    display: flex;
 
     img {
       width: 100%;
-      max-width: fit-content;
-      object-fit: contain;
+      object-fit: fill;
     }
   }
-
 `;
