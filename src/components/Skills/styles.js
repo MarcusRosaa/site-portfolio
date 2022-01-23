@@ -6,12 +6,51 @@ export const Container = styled.div`
   padding: 48px 64px 60px 64px;
   background: linear-gradient(190deg, rgba(53,57,64,1) 0%, #16181B 63%, #16181B 100%);
   border-radius: 30px;
+  display: flex;
+  align-items: center;
 
   & .skills_cards_container {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     height: 97%;
+  }
+
+  & .skills_text_container {
+    width: 50%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 18px;
+
+    p {
+      width: 100%;
+      max-width: 450px;
+    }
+
+    button {
+      transition: background 0.2s ease-in;
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 18px;
+      border-radius: 30px;
+      background: ${({ theme }) => theme.secondaryColors.red};
+      box-shadow:  0px 0px 20px rgba(235, 42, 76, 0.2);
+      color: #fff;
+      border: 1px solid #ec4a78;
+      margin-top: 32px;
+      font-size: 12px;
+      font-weight: 600;
+
+      img {
+        width: 32px;
+        margin-right: 8px;
+      }
+
+      &:hover {
+        background: #a40c29;
+      }
+    }
   }
 `;
 
@@ -22,11 +61,11 @@ export const Card = styled.div`
   margin: 8px;
   border-radius: 30px;
   border: 2px solid #42464B;
-  cursor: pointer;
   background: linear-gradient(342deg, rgba(39,43,48,1) 0%, rgba(27,29,33,1) 60%, rgba(27,29,33,1) 100%);
   transition: 0.2s ease-in;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -46,9 +85,16 @@ export const Card = styled.div`
     background-clip: content-box, border-box;
   }
 
-  & p {
+  img {
+    width: 60px;
+
+  }
+
+  p {
+    margin-top: 8px;
     text-transform: uppercase;
     color: white;
+    text-align: center;
   }
 
 `;

@@ -32,7 +32,7 @@ export const Container = styled.div`
 
     button {
       margin-top: 16px;
-      padding: 8px 18px;
+      padding: 10px 18px;
       border-radius: 30px;
       border: none;
       font-weight: 600;
@@ -57,7 +57,7 @@ export const Container = styled.div`
         }
 
         img {
-          width: 30px;
+          width: 32px;
           margin-right: 8px;
         }
       }
