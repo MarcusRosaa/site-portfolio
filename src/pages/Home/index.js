@@ -1,5 +1,6 @@
 import AboutMe from '../../components/AboutMe';
 import Skills from '../../components/Skills';
+import Projects from '../../components/Projects';
 import { Container } from './styles';
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <Container>
       <AboutMe />
       <Skills />
+      <Projects />
     </Container>
   );
 }
