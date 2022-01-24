@@ -25,6 +25,9 @@ export default function Projects() {
 
         <Card className="project_card">
           <img src={disneyClone} alt="" />
+          <div className="infos_layer">
+            Linguagens utilizadas
+          </div>
         </Card>
 
       </div>

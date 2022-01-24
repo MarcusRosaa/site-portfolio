@@ -47,6 +47,7 @@ export const Card = styled.div`
   justify-content: center;
   margin: 16px 2%;
   border-radius: 30px;
+  position: relative;
 
 
 
@@ -55,5 +56,14 @@ export const Card = styled.div`
     height: 100%;
     object-fit: cover;
     border-radius: inherit;
+  }
+
+  .infos_layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #fff;
+    border: 2px solid blue;
+    border-radius: 30px;
   }
 `;
