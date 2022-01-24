@@ -24,7 +24,7 @@ export const Container = styled.header`
       right: 100%;
       bottom: -3px;
       margin-top: 20px;
-      background: ${({ theme }) => theme.secondaryColors.purple};
+      background: #fff;
       height: 3px;
       transition: right 0.3s ease-out;
     }
@@ -41,8 +41,8 @@ export const Container = styled.header`
     }
 
     a.call-to-action:hover {
-      border-color: ${({ theme }) => theme.secondaryColors.purple};
-      color: ${({ theme }) => theme.secondaryColors.purple};
+      border-color: ${({ theme }) => theme.secondaryColors.blue};
+      color: ${({ theme }) => theme.secondaryColors.blue};
     }
   }
   `;

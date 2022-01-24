@@ -15,7 +15,7 @@ export const Container = styled.div`
       width: fit-content;
       margin-bottom: 16px;
       font-size: 37px;
-      background-image: linear-gradient(180deg, transparent 70%, #2A6CFB 0);
+      background-image: linear-gradient(180deg, transparent 70%, #9355F9 0);
       background-repeat: no-repeat;
       background-size: 33% 82%;
       background-position: 83% 0;
