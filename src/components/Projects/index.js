@@ -2,6 +2,7 @@ import { Container, Card, Header } from './styles';
 
 import disneyClone from '../../assets/images/projects/disney-clone.png';
 import emojiProjects from '../../assets/images/emoji-hi.png';
+import externalLink from '../../assets/images/icons/exit-top-right.png';
 
 export default function Projects() {
   return (
@@ -28,6 +29,7 @@ export default function Projects() {
           <div className="infos_layer">
             <Header>
               <h4>Disney+ clone</h4>
+              <span className="arrow" />
             </Header>
             <div className="infos_layer_content">
               <p>
@@ -45,7 +47,10 @@ export default function Projects() {
               <span className="tag">Styled-Components</span>
               <span className="tag">Responsivo</span>
             </div>
-            <a href="https://google.com">Ir até repositório</a>
+            <a href="https://google.com" target="_blank" rel="noreferrer">
+              Ir até repositório
+              <img src={externalLink} alt="external link" />
+            </a>
           </div>
         </Card>
 

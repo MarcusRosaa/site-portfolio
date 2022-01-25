@@ -75,6 +75,17 @@ export const Card = styled.div`
       transform: translateY(0);
       bottom: 0;
     }
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+      display: table;
+
+      img {
+        width: 16px;
+        margin-left: 4px;
+      }
+    }
   }
 
   .infos_layer_content {
@@ -124,7 +135,22 @@ export const Card = styled.div`
 `;
 
 export const Header = styled.header`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   h4 {
     text-transform: uppercase;
+  }
+
+  span {
+    position: absolute;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    right: 6%;
+    top: 7%;
   }
 `;
