@@ -59,7 +59,7 @@ export const Card = styled.div`
 
   .infos_layer {
     width: 100%;
-    height: 90%;
+    height: 80%;
     position: absolute;
     transform: translateY(80%);
     color: #fff;
@@ -88,9 +88,10 @@ export const Card = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width: 80%;
+    max-width: 60%;
 
     .tag {
+      margin-right: 5px;
       margin-bottom: 8px;
       border: 1px solid white;
       border-radius: 30px;
@@ -100,6 +101,24 @@ export const Card = styled.div`
       background: ${({ theme }) => theme.primaryColors.black};
       opacity: 0.6;
       letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    width: 100%;
+    height: 350px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+
+    .infos_layer {
+      height: 95%;
+    }
+
+    .infos_layer_content_tags {
+      max-width: 90%;
     }
   }
 `;

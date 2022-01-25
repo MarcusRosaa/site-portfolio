@@ -45,6 +45,7 @@ export default function Projects() {
               <span className="tag">Styled-Components</span>
               <span className="tag">Responsivo</span>
             </div>
+            <a href="https://google.com">Ir até repositório</a>
           </div>
         </Card>
 
