@@ -28,11 +28,11 @@ export const Container = styled.div`
     justify-content: space-between;
     flex-wrap: wrap;
 
-    & :nth-child(odd) {
+    & .project_card:nth-of-type(odd) {
       margin-left: 0;
     }
 
-    & :nth-child(even) {
+    & .project_card:nth-of-type(even) {
       margin-right: 0;
     }
   }
@@ -48,6 +48,7 @@ export const Card = styled.div`
   margin: 16px 2%;
   border-radius: 30px;
   position: relative;
+  overflow: hidden;
 
 
 
@@ -60,10 +61,34 @@ export const Card = styled.div`
 
   .infos_layer {
     width: 100%;
-    height: 100%;
+    height: 85%;
     position: absolute;
+    transform: translateY(80%);
     color: #fff;
-    border: 2px solid blue;
     border-radius: 30px;
+    background: ${({ theme }) => theme.primaryColors.gray};
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+
+    &:hover {
+      transform: translateY(0);
+      bottom: 0;
+    }
+  }
+
+  .infos_layer_content {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    margin: 0 20px 0 20px;
+  }
+`;
+
+export const Header = styled.header`
+  h4 {
+    text-transform: uppercase;
+    margin-bottom: 8px;
   }
 `;
