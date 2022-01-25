@@ -34,8 +34,16 @@ export default function Projects() {
                 Neste projeto construí um clone da plataforma de streaming
                 <i> Disney+ </i>
                 aonde utilizei Firebase para criar a autenticação do usuário com login e senha,
-                React para a interface com styled-component para a estilização CSS dos componentes.
+                React para a interface com styled-component para a estilização CSS dos componentes
+                e Redux para o gerencimento de estados do app.
               </p>
+            </div>
+            <div className="infos_layer_content_tags">
+              <span className="tag">React.js</span>
+              <span className="tag">Redux</span>
+              <span className="tag">Firebase</span>
+              <span className="tag">Styled-Components</span>
+              <span className="tag">Responsivo</span>
             </div>
           </div>
         </Card>

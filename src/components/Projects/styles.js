@@ -21,8 +21,6 @@ export const Container = styled.div`
 
   }
 
-
-
   .projects_cards_container {
     display: flex;
     justify-content: space-between;
@@ -61,7 +59,7 @@ export const Card = styled.div`
 
   .infos_layer {
     width: 100%;
-    height: 85%;
+    height: 90%;
     position: absolute;
     transform: translateY(80%);
     color: #fff;
@@ -70,6 +68,7 @@ export const Card = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
     padding: 24px;
 
     &:hover {
@@ -84,11 +83,29 @@ export const Card = styled.div`
     text-align: center;
     margin: 0 20px 0 20px;
   }
+
+  .infos_layer_content_tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 80%;
+
+    .tag {
+      margin-bottom: 8px;
+      border: 1px solid white;
+      border-radius: 30px;
+      padding: 8px;
+      font-weight: 500;
+      font-size: 12px;
+      background: ${({ theme }) => theme.primaryColors.black};
+      opacity: 0.6;
+      letter-spacing: 1px;
+    }
+  }
 `;
 
 export const Header = styled.header`
   h4 {
     text-transform: uppercase;
-    margin-bottom: 8px;
   }
 `;
