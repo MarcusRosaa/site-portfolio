@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 import { Container } from './styles';
 
 import developer from '../../assets/images/developer.svg';
@@ -15,10 +16,10 @@ export default function AboutMe() {
         <div className="inline_main_info_buttons">
           <button type="button" className="contact_me">
             <img src={emailIcon} alt="email" />
-            Entrar em contato
+            <HashLink smooth to="#contato">Entrar em contato</HashLink>
           </button>
           <button type="button" className="see_portfolio">
-            Ver portfolio
+            <HashLink smooth to="#projetos">Ver portfolio</HashLink>
           </button>
         </div>
       </div>

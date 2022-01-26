@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 import { Container, Card } from './styles';
 
 import reactIcon from '../../assets/images/icons/react.png';
@@ -34,7 +35,7 @@ export default function Skills() {
         <p>Conheça minhas principais habilidades como um desenvolvedor web front-end de alto nível.</p>
         <button type="button">
           <img src={emailIcon} alt="email" />
-          Entre em contato
+          <HashLink smooth to="#contato">Entre em contato</HashLink>
         </button>
       </div>
     </Container>

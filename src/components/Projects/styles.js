@@ -44,7 +44,8 @@ export const Container = styled.div`
 
 export const Card = styled.div`
   width: 48%;
-  height: 500px;
+  height: 600px;
+  min-height: 200px;
   border: 1px solid white;
   display: flex;
   align-items: center;
@@ -65,9 +66,9 @@ export const Card = styled.div`
 
   .infos_layer {
     width: 100%;
-    height: 80%;
+    height: 100%;
     position: absolute;
-    transform: translateY(80%);
+    transform: translateY(85%);
     color: #fff;
     border-radius: 30px;
     background: ${({ theme }) => theme.primaryColors.gray};
@@ -128,7 +129,6 @@ export const Card = styled.div`
 
   @media only screen and (max-width: 1300px) {
     width: 100%;
-    height: 350px;
     border: 1px solid white;
     display: flex;
     align-items: center;

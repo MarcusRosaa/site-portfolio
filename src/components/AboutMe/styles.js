@@ -19,7 +19,7 @@ export const Container = styled.div`
       background-image: linear-gradient(180deg, transparent 70%, #9355F9 0);
       background-repeat: no-repeat;
       background-size: 33% 82%;
-      background-position: 83% 0;
+      background-position: 82% 0;
     }
 
     p {
@@ -38,6 +38,11 @@ export const Container = styled.div`
       border: none;
       font-weight: 600;
       font-size: 12px;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
 
 
       & + button {

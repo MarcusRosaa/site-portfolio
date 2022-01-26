@@ -45,4 +45,14 @@ export const Container = styled.header`
       color: ${({ theme }) => theme.secondaryColors.blue};
     }
   }
-  `;
+
+  @media only screen and (max-width: 720px) {
+    nav {
+      flex-direction: column;
+
+      a + a {
+      margin-top: 24px;
+      }
+    }
+  }
+`;

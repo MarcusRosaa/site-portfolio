@@ -27,6 +27,7 @@ export const Container = styled.div`
     p {
       width: 100%;
       max-width: 450px;
+      text-align: start;
     }
 
     button {
@@ -42,6 +43,11 @@ export const Container = styled.div`
       margin-top: 32px;
       font-size: 12px;
       font-weight: 600;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
 
       img {
         width: 32px;
