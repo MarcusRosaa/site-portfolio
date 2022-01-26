@@ -34,11 +34,17 @@ export const Container = styled.div`
       margin-right: 0;
     }
   }
+
+  @media only screen and (max-width: 720px) {
+    .projects_title h2 {
+      font-size: 28px;
+    }
+  }
 `;
 
 export const Card = styled.div`
   width: 48%;
-  height: 340px;
+  height: 500px;
   border: 1px solid white;
   display: flex;
   align-items: center;
@@ -74,6 +80,10 @@ export const Card = styled.div`
     &:hover {
       transform: translateY(0);
       bottom: 0;
+
+      span.arrow {
+        transform: rotate(225deg);
+      }
     }
 
     a {

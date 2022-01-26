@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   margin: 70px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 
@@ -85,7 +86,25 @@ export const Container = styled.div`
 
     img {
       width: 100%;
+      max-width: 450px;
       object-fit: fill;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+   .main_box {
+    width: 100%;
+   }
+
+   .main_image {
+      width: 100%;
+      margin-top: 16px;
+   }
+  }
+
+  @media only screen and (max-width: 980px) {
+    .main_box h1 {
+      background-image: none;
     }
   }
 `;

@@ -7,6 +7,7 @@ export const Container = styled.div`
   background: linear-gradient(190deg, rgba(53,57,64,1) 0%, #16181B 63%, #16181B 100%);
   border-radius: 30px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 
   & .skills_cards_container {
@@ -52,6 +53,31 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 1300px) {
+    height: fit-content;
+    padding: 24px 32px 30px 32px;
+    flex-direction: column-reverse;
+
+    .skills_cards_container {
+      justify-content: center;
+      width: 100%;
+    }
+
+    .skills_text_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    .skills_text_container {
+      font-size: 30px;
+    }
+  }
 `;
 
 export const Card = styled.div`
@@ -95,6 +121,15 @@ export const Card = styled.div`
     text-transform: uppercase;
     color: white;
     text-align: center;
+  }
+
+  @media only screen and (max-width: 1300px) {
+    width: 350px;
+    height: 250px;
+  }
+
+  @media only screen and (max-width: 720px) {
+    width: 100%;
   }
 
 `;
