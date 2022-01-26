@@ -45,6 +45,29 @@ export default function Projects() {
 
         <Card className="project_card">
           <img src={mycontacts} alt="" />
+          <div className="infos_layer">
+            <Header>
+              <h4>MyContacts</h4>
+              <span className="arrow" />
+            </Header>
+            <div className="infos_layer_content">
+              <p>
+                Este é um projeto usando React.js no front-end e utilizando alguns hooks como useState, useEffect, useMemo entre outros para criar os estados e mexer com o lifecycle de um web app. Dentre suas funcionalidades estão adicionar, editar, remover e listar contatos, ou seja, um app que faz um CRUD completo estando conectado a uma API feita em Node.js. Nesse projeto aprendi MUITO sobre React e como usá-lo no dia a dia e em projetos reais e as melhores formas de usar os React Hooks para alterar estados da aplicação.
+              </p>
+            </div>
+            <div className="infos_layer_content_tags">
+              <span className="tag">React.js</span>
+              <span className="tag">React Hooks</span>
+              <span className="tag">Styled-Components</span>
+              <span className="tag">Clean Architecture</span>
+              <span className="tag">Front-end Javascript</span>
+              <span className="tag">Consumo de API Rest</span>
+            </div>
+            <a href="https://github.com/MarcusRosaa/mycontacts" target="_blank" rel="noreferrer">
+              Ir até repositório
+              <img src={externalLink} alt="external link" />
+            </a>
+          </div>
         </Card>
 
         <Card className="project_card">
