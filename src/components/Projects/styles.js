@@ -122,6 +122,7 @@ export const Card = styled.div`
       background: ${({ theme }) => theme.primaryColors.black};
       opacity: 0.6;
       letter-spacing: 1px;
+      text-transform: capitalize;
     }
   }
 

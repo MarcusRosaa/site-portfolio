@@ -3,6 +3,7 @@ import { Container, Card, Header } from './styles';
 import disneyClone from '../../assets/images/projects/disney-clone.png';
 import jstack from '../../assets/images/projects/jstack.png';
 import mycontacts from '../../assets/images/projects/mycontacts.png';
+import deliveryApp from '../../assets/images/projects/appDelivery.png';
 
 import emojiProjects from '../../assets/images/emoji-hi.png';
 import externalLink from '../../assets/images/icons/exit-top-right.png';
@@ -31,6 +32,7 @@ export default function Projects() {
               <span className="tag">React.js</span>
               <span className="tag">Express</span>
               <span className="tag">Node.js</span>
+              <span className="tag">Postgres SQL</span>
               <span className="tag">Styled-Components</span>
               <span className="tag">Clean Code</span>
               <span className="tag">Rest API</span>
@@ -71,7 +73,37 @@ export default function Projects() {
         </Card>
 
         <Card className="project_card">
-          <img src={disneyClone} alt="" />
+          <img src={deliveryApp} alt="" />
+          <div className="infos_layer">
+            <Header>
+              <h4>Delivery App</h4>
+              <span className="arrow" />
+            </Header>
+            <div className="infos_layer_content">
+              <p>
+                Neste projeto estou construindo um web app de delivery no modelo ifood aonde haverá catálogo de produtos, separação por categorias, criação de contas com login e senha por Firebase e muitas outras funcionalidades para ajudar
+                pequenos negócios locais a mostrarem seus produtos e aumentarem suas vendas. Nesse projeto o front-end é em React, com Redux e Styled-components. O back-end é Node.js com Express e banco de dados PostresSQL.
+              </p>
+            </div>
+            <div className="infos_layer_content_tags">
+              <span className="tag">React.js</span>
+              <span className="tag">Redux</span>
+              <span className="tag">Firebase</span>
+              <span className="tag">Styled-Components</span>
+              <span className="tag">Layout moderno</span>
+              <span className="tag">web app</span>
+              <span className="tag">CRUD completo</span>
+              <span className="tag">sistema de login</span>
+              <span className="tag">Express</span>
+              <span className="tag">Postgres SQL</span>
+              <span className="tag">Node.js</span>
+
+            </div>
+            <a href="https://github.com/MarcusRosaa/delivery-app-template" target="_blank" rel="noreferrer">
+              Ir até repositório
+              <img src={externalLink} alt="external link" />
+            </a>
+          </div>
         </Card>
 
         <Card className="project_card">
@@ -91,7 +123,7 @@ export default function Projects() {
               </p>
             </div>
             <div className="infos_layer_content_tags">
-              <span className="tag">React</span>
+              <span className="tag">React.js</span>
               <span className="tag">Redux</span>
               <span className="tag">Firebase</span>
               <span className="tag">Styled-Components</span>
