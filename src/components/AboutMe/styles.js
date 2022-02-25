@@ -88,6 +88,7 @@ export const Container = styled.div`
     width: 48%;
     min-width: 20%;
     display: flex;
+    justify-content: flex-end;
 
     img {
       width: 100%;
@@ -107,9 +108,32 @@ export const Container = styled.div`
    }
   }
 
-  @media only screen and (max-width: 980px) {
+  @media only screen and (max-width: 979px) {
+    .main_box h1 {
+      background-position: 90% -100%;
+      background-size: 28% 70%;
+      background-image: linear-gradient(180deg, transparent 82%, #9355F9 0);
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 868px) {
     .main_box h1 {
       background-image: none;
+    }
+  }
+
+  @media only screen and (min-width: 487px) and (max-width: 768px) {
+    .main_box h1 {
+      background-position: 83% 50%;
+      background-size: 28% 70%;
+      background-image: linear-gradient(180deg, transparent 65%, #9355F9 0);
+    }
+  }
+
+
+  @media only screen and (max-width: 486px) {
+    .main_box h1 {
+      background-position: 0 80%;
     }
   }
 `;

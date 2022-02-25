@@ -8,6 +8,7 @@ import Header from '../Header';
 import PageRoutes from '../../Routes';
 
 import { Container } from './styles';
+import UpButton from '../UpButton';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <GlobalStyles />
 
         <Container>
+          <UpButton />
           <Header />
           <PageRoutes />
         </Container>

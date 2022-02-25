@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 export default function Header() {
   return (
-    <Container>
+    <Container id="home">
       <nav role="navigation">
         <HashLink smooth to="#quem-sou" className="nav-item">Quem sou?</HashLink>
         <HashLink smooth to="#habilidades" className="nav-item">Minhas habilidades</HashLink>
