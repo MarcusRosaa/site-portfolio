@@ -33,12 +33,14 @@ export const Input = styled.input`
   max-width: 700px;
   margin-bottom: 16px;
   height: 50px;
-  padding: 8px;
+  padding: 16px;
   border-radius: 15px;
-  border: 2px solid ${({ theme }) => theme.primaryColors.gray};
+  border: 2px solid #fff;
+  transition: bordder-color 0.2s ease-in;
+  font-size: 16px;
 
   &:focus {
-    border: 3px solid #020202
+    border: 2px solid ${({ theme }) => theme.secondaryColors.blue};
   }
 `;
 
@@ -47,11 +49,13 @@ export const TextArea = styled.textarea`
   outline: none;
   width: 100%;
   max-width: 700px;
-  padding: 8px;
+  padding: 16px;
   border-radius: 15px;
-  border: 2px solid ${({ theme }) => theme.primaryColors.gray};
+  border: 2px solid #fff;
+  font-size: 16px;
+
 
   &:focus {
-    border: 3px solid #020202
+    border: 2px solid ${({ theme }) => theme.secondaryColors.blue};
   }
 `;
