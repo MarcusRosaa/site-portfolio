@@ -13,12 +13,18 @@ export default function Skills() {
       <div className="skills_cards_container">
         <Card>
           <img src={reactIcon} alt="" />
-          <p>React: hooks, estados, lifecycle & componentes funcionais</p>
+          <p>
+            <strong>React: </strong>
+            hooks, estados, lifecycle & componentes funcionais
+          </p>
         </Card>
 
         <Card>
           <img src={javascriptIcon} alt="" />
-          <p>Javascript avançado: POO, ES6, frameworks e bibliotecas & clean code</p>
+          <p>
+            <strong>Javascript avançado: </strong>
+            POO, ES6, frameworks e bibliotecas & clean code
+          </p>
         </Card>
 
         <Card>
