@@ -157,4 +157,14 @@ export const Card = styled.div`
     width: 100%;
   }
 
+  @media screen and (max-width: 520px) {
+    &:nth-of-type(2) {
+      margin-top: 8px;
+    }
+
+    &:nth-of-type(4) {
+      margin-top: 8px;
+    }
+  }
+
 `;

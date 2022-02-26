@@ -77,6 +77,8 @@ export const Card = styled.div`
     flex-direction: column;
     justify-content: space-between;
     padding: 24px;
+    cursor: ns-resize;
+    transition: all 0.2s ease-in;
 
     &:hover {
       transform: translateY(0);
@@ -110,7 +112,6 @@ export const Card = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width: 60%;
 
     .tag {
       margin-right: 5px;
@@ -141,6 +142,15 @@ export const Card = styled.div`
 
     .infos_layer_content_tags {
       max-width: 90%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    height: 800px;
+
+    .infos_layer {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 `;
