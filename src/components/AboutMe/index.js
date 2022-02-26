@@ -14,13 +14,17 @@ export default function AboutMe() {
           do front-end e back-end de aplicações web e apaixonado por programar.
         </p>
         <div className="inline_main_info_buttons">
-          <button type="button" className="contact_me">
-            <img src={emailIcon} alt="email" />
-            <HashLink smooth to="#contato">Entrar em contato</HashLink>
-          </button>
-          <button type="button" className="see_portfolio">
-            <HashLink smooth to="#projetos">Ver portfolio</HashLink>
-          </button>
+          <HashLink smooth to="#contato">
+            <button type="button" className="contact_me">
+              <img src={emailIcon} alt="email" />
+              Entrar em contato
+            </button>
+          </HashLink>
+          <HashLink smooth to="#projetos">
+            <button type="button" className="see_portfolio">
+              Ver portfolio
+            </button>
+          </HashLink>
         </div>
       </div>
       <div className="main_image">

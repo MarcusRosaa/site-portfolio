@@ -8,7 +8,7 @@ export const Container = styled.div`
   align-items: center;
 
   .main_box {
-    width: 48%;
+    width: 40%;
     max-width: 672px;
     color: #fff;
 
@@ -29,6 +29,10 @@ export const Container = styled.div`
 
     .inline_main_info_buttons {
       display: flex;
+
+      a {
+        display: flex;
+      }
     }
 
     button {
@@ -38,6 +42,9 @@ export const Container = styled.div`
       border: none;
       font-weight: 600;
       font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       a {
         text-decoration: none;
@@ -73,6 +80,7 @@ export const Container = styled.div`
         color: #869eaf;
         border: 1px solid #869eaf;
         transition: filter 0.2s ease-in;
+        margin-left: 16px;
 
         &:hover {
           filter: brightness(1.5);
@@ -88,7 +96,7 @@ export const Container = styled.div`
     width: 48%;
     min-width: 20%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
     img {
       width: 100%;
@@ -108,15 +116,8 @@ export const Container = styled.div`
    }
   }
 
-  @media only screen and (max-width: 979px) {
-    .main_box h1 {
-      background-position: 90% -100%;
-      background-size: 28% 70%;
-      background-image: linear-gradient(180deg, transparent 82%, #9355F9 0);
-    }
-  }
 
-  @media only screen and (min-width: 768px) and (max-width: 868px) {
+  @media only screen and (min-width: 770px) and (max-width: 1168px) {
     .main_box h1 {
       background-image: none;
     }
@@ -130,10 +131,17 @@ export const Container = styled.div`
     }
   }
 
+    @media only screen and (max-width: 486px) and (min-width: 426px) {
+    .main_box h1 {
+      background-image: none;
+    }
+  }
+
 
   @media only screen and (max-width: 486px) {
     .main_box h1 {
-      background-position: 0 80%;
+      background-position: 0 83%;
+      background-size: 33% 50%;
     }
   }
 `;

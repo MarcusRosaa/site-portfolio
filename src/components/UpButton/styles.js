@@ -11,8 +11,9 @@ bottom: 0;
 width: 48px;
 height: 48px;
 border-radius: 50%;
-margin-right: 16px ;
-margin-bottom: 16px;
+margin-right: 24px ;
+margin-bottom: 24px;
+box-shadow:  0px 4px 10px rgba(134,158,175,0.15);
 
 &:hover {
   background-color: #313232;

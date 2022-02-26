@@ -22,7 +22,6 @@ export const Container = styled.div`
     color: #fff;
     font-weight: 700;
     font-size: 35px;
-    padding: 18px;
 
     p {
       width: 100%;
@@ -40,7 +39,8 @@ export const Container = styled.div`
       box-shadow:  0px 0px 20px rgba(235, 42, 76, 0.2);
       color: #fff;
       border: 1px solid #ec4a78;
-      margin-top: 32px;
+      margin-top: 16px;
+      margin-bottom: 24px;
       font-size: 12px;
       font-weight: 600;
 
@@ -62,26 +62,44 @@ export const Container = styled.div`
 
   @media only screen and (max-width: 1300px) {
     height: fit-content;
-    padding: 24px 32px 30px 32px;
+    padding: 32px 15px 32px 15px;
     flex-direction: column-reverse;
 
     .skills_cards_container {
-      justify-content: center;
+      justify-content: space-evenly;
       width: 100%;
+
+      & div {
+        width: 45%;
+      }
     }
 
     .skills_text_container {
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
       width: 100%;
+
+      p {
+        text-align: center;
+      }
     }
   }
 
   @media only screen and (max-width: 720px) {
     .skills_text_container {
       font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    .skills_cards_container {
+      justify-content: space-evenly;
+      width: 100%;
+
+      & div {
+        width: 100%;
+      }
     }
   }
 `;
@@ -123,6 +141,7 @@ export const Card = styled.div`
   }
 
   p {
+    padding: 0 24px;
     margin-top: 8px;
     text-transform: uppercase;
     color: white;
