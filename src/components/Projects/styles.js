@@ -46,7 +46,7 @@ export const Card = styled.div`
   width: 48%;
   height: 600px;
   min-height: 200px;
-  border: 1px solid white;
+  border: 2px solid #42464B;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,7 +130,6 @@ export const Card = styled.div`
 
   @media only screen and (max-width: 1300px) {
     width: 100%;
-    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;

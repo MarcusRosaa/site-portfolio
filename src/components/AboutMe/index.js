@@ -14,12 +14,12 @@ export default function AboutMe() {
           do front-end e back-end de aplicações web e apaixonado por programar.
         </p>
         <div className="inline_main_info_buttons">
-          <HashLink smooth to="#contato">
+          <a href="https://wa.me/5551992052353" target="_blank" rel="noreferrer">
             <button type="button" className="contact_me">
               <img src={emailIcon} alt="email" />
               Entrar em contato
             </button>
-          </HashLink>
+          </a>
           <HashLink smooth to="#projetos">
             <button type="button" className="see_portfolio">
               Ver portfolio
