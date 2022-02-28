@@ -44,8 +44,9 @@ export const SocialMedia = styled.div`
   margin-top: 32px;
 
   p {
-    color: #7f8185;
-    margin-bottom: 16px;
+    color: #2A6CFB;
+    font-weight: bold;
+    margin-bottom: 8px;
   }
 
   img {
