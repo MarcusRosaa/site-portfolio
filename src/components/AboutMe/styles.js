@@ -23,7 +23,7 @@ export const Container = styled.div`
     }
 
     p {
-      line-height: 25px;
+      line-height: 30px;
       color: #7f8185;
     }
 

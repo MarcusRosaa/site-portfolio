@@ -1,7 +1,6 @@
 import AboutMe from '../../components/AboutMe';
 import Skills from '../../components/Skills';
 import Projects from '../../components/Projects';
-import Footer from '../../components/Footer';
 import { Container } from './styles';
 
 export default function Home() {
@@ -10,7 +9,6 @@ export default function Home() {
       <AboutMe />
       <Skills />
       <Projects />
-      <Footer />
     </Container>
   );
 }

@@ -9,6 +9,7 @@ import PageRoutes from '../../Routes';
 
 import { Container } from './styles';
 import UpButton from '../UpButton';
+import Footer from '../Footer';
 
 export default function App() {
   return (
@@ -21,6 +22,8 @@ export default function App() {
           <Header />
           <PageRoutes />
         </Container>
+
+        <Footer />
 
       </ThemeProvider>
     </BrowserRouter>
