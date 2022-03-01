@@ -33,6 +33,10 @@ export const Container = styled.div`
       a {
         display: flex;
       }
+
+      a + a {
+        margin-left: 16px;
+      }
     }
 
     button {
@@ -80,7 +84,6 @@ export const Container = styled.div`
         color: #869eaf;
         border: 1px solid #869eaf;
         transition: filter 0.2s ease-in;
-        margin-left: 16px;
 
         &:hover {
           filter: brightness(1.5);

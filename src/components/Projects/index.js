@@ -99,7 +99,7 @@ export default function Projects() {
               <span className="tag">Node.js</span>
 
             </div>
-            <a href="https://github.com/MarcusRosaa/delivery-app-template" target="_blank" rel="noreferrer">
+            <a href="https://github.com/MarcusRosaa/delivery-app-template/tree/dev" target="_blank" rel="noreferrer">
               Ir até repositório
               <img src={externalLink} alt="external link" />
             </a>

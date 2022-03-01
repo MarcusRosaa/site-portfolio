@@ -16,7 +16,7 @@ export default function Header() {
         <HashLink smooth to="#habilidades" className="nav-item">Minhas habilidades</HashLink>
         <HashLink smooth to="#projetos" className="nav-item">Projetos</HashLink>
         <HashLink smooth to="#sobre-mim" className="nav-item">Sobre mim</HashLink>
-        <a smooth href="https://wa.me/5551992052353" className="call-to-action">Contato</a>
+        <a href="https://wa.me/5551992052353" className="call-to-action">Contato</a>
       </nav>
 
     </Container>
