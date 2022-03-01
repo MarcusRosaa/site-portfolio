@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.js": "/site-portfolio/static/js/main.3b2b6158.js",
+    "main.js": "/site-portfolio/static/js/main.eeb6e3f7.js",
     "static/media/disney-clone.png": "/site-portfolio/static/media/disney-clone.0420d0f3ad987f1c1e48.png",
     "static/media/appDelivery.png": "/site-portfolio/static/media/appDelivery.f3f67ca64cca9eaf9b84.png",
     "static/media/jstack.png": "/site-portfolio/static/media/jstack.00bdc9ea63f647d93933.png",
+    "static/media/emoji-hands.png": "/site-portfolio/static/media/emoji-hands.fbec0f2e9b5996a8b544.png",
     "static/media/emoji-hi.png": "/site-portfolio/static/media/emoji-hi.2e1d84ba2a9e8da63261.png",
     "static/media/emojiHappy.png": "/site-portfolio/static/media/emojiHappy.f6b0554a2a964bdd5d60.png",
     "static/media/mycontacts.png": "/site-portfolio/static/media/mycontacts.fa0ea02648a209796142.png",
-    "static/media/unit.png": "/site-portfolio/static/media/unit.351e4c516bf99dcfc63a.png",
     "static/media/react.png": "/site-portfolio/static/media/react.20adfb35ae6a6e5817bf.png",
     "static/media/github.png": "/site-portfolio/static/media/github.b32ef956bb13855b0d52.png",
     "static/media/emailRed.png": "/site-portfolio/static/media/emailRed.1f60e5d5c69825049538.png",
     "static/media/developer.svg": "/site-portfolio/static/media/developer.496f500896560e53c9de6ed7170e80a4.svg",
+    "static/media/clean-code.png": "/site-portfolio/static/media/clean-code.87656f7b68e246a53fa9.png",
     "static/media/javascript.png": "/site-portfolio/static/media/javascript.38323140666580081f57.png",
+    "static/media/github-sign.png": "/site-portfolio/static/media/github-sign.113c9e79ceaa7fadb7c3.png",
     "index.html": "/site-portfolio/index.html",
-    "main.3b2b6158.js.map": "/site-portfolio/static/js/main.3b2b6158.js.map"
+    "main.eeb6e3f7.js.map": "/site-portfolio/static/js/main.eeb6e3f7.js.map"
   },
   "entrypoints": [
-    "static/js/main.3b2b6158.js"
+    "static/js/main.eeb6e3f7.js"
   ]
 }
