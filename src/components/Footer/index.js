@@ -20,7 +20,7 @@ export default function Footer() {
             Meu nome é Marcus.
             Eu sou um desenvolvedor de websites brasileiro.
             Fora meu amor por programar, no meu tempo livre costumo praticar luta como principal atividade física. Praticar um esporte tão intenso
-            me dá a capacidade de limpar minha mente e conseguir criar aplicações de qualidade sempre.
+            me dá a capacidade de limpar minha mente e conseguir pensar claramente na hora de programar websites.
           </AboutMe>
 
           <AboutMe>

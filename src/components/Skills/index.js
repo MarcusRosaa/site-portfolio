@@ -13,16 +13,14 @@ export default function Skills() {
         <Card>
           <img src={reactIcon} alt="" />
           <p>
-            <strong>React: </strong>
-            hooks, estados, lifecycle & componentes funcionais
+            React.js
           </p>
         </Card>
 
         <Card>
           <img src={javascriptIcon} alt="" />
           <p>
-            <strong>Javascript avançado: </strong>
-            POO, ES6, frameworks e bibliotecas & clean code
+            Javascript avançado ES6+
           </p>
         </Card>
 
@@ -33,11 +31,11 @@ export default function Skills() {
 
         <Card>
           <img src={githubIcon} alt="" />
-          <p>Versionamento de código / github, bitbucket & metodologias ágeis com Jira</p>
+          <p>Versionamento de código/github</p>
         </Card>
       </div>
       <div className="skills_text_container">
-        <p>Conheça minhas principais habilidades como um desenvolvedor web de alto nível.</p>
+        <p>Conheça minhas principais habilidades como um desenvolvedor web.</p>
         <a href="https://wa.me/5551992052353" target="_blank" rel="noreferrer">
           <button type="button">
             <img src={emailIcon} alt="email" />

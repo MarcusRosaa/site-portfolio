@@ -9,7 +9,7 @@ export const Container = styled.footer`
 `;
 
 export const InnerContainer = styled.div`
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 72px 16px 40px;
   display: flex;
@@ -110,7 +110,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const Bottom = styled.div`
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 72px 16px 40px;
   display: flex;
