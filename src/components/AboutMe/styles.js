@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 70px 0;
+  margin: 32px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -114,6 +114,7 @@ export const Container = styled.div`
 
    .main_image {
       width: 100%;
+      max-height: 400px;
       margin-top: 16px;
    }
   }

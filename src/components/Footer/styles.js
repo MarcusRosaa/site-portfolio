@@ -4,14 +4,14 @@ export const Container = styled.footer`
   width: 100%;
   background: linear-gradient(0deg, rgba(22,24,27,1) 3%, rgba(52,56,63,1) 69%, rgba(53,57,64,1) 100%);
   border-radius: 60px 60px 0 0;
-  margin-top: 70px;
+  margin-top: 40px;
   padding-bottom: 32px;
 `;
 
 export const InnerContainer = styled.div`
   max-width: 1300px;
   margin: 0 auto;
-  padding: 72px 16px 40px;
+  padding: 40px 16px 40px;
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid rgba(52,56,63,1);
@@ -112,7 +112,7 @@ export const ImageContainer = styled.div`
 export const Bottom = styled.div`
   max-width: 1300px;
   margin: 0 auto;
-  padding: 72px 16px 40px;
+  padding: 40px 16px 40px;
   display: flex;
   justify-content: space-between;
   padding-top: 32px;
