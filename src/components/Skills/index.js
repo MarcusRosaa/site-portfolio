@@ -35,7 +35,7 @@ export default function Skills() {
         </Card>
       </div>
       <div className="skills_text_container">
-        <p>Conheça minhas principais habilidades como um desenvolvedor web.</p>
+        <p>Conheça minhas principais habilidades como desenvolvedor web.</p>
         <a href="https://wa.me/5551992052353" target="_blank" rel="noreferrer">
           <button type="button">
             <img src={emailIcon} alt="email" />

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.header`
   max-width: 700px;
-  margin: 0px auto;
+  margin: 0 0 0 auto;
   padding: 32px 0;
   color: #fff;
   position: relative;
@@ -37,14 +37,16 @@ export const Container = styled.header`
 
     a.call-to-action {
       padding: 10px 15px;
-      border: 1px solid;
+      border: 2px solid;
       border-radius: 25px;
-      transition: 0.3s ease-out;
+      transition: 0.2s ease-out;
+      box-shadow:  0px 4px 10px rgba(134,158,175,0.05);
+      border-color: ${({ theme }) => theme.secondaryColors.blue};
+      color: ${({ theme }) => theme.secondaryColors.blue};
     }
 
     a.call-to-action:hover {
-      border-color: ${({ theme }) => theme.secondaryColors.purple};
-      color: ${({ theme }) => theme.secondaryColors.purple};
+      opacity: 0.8;
     }
   }
 

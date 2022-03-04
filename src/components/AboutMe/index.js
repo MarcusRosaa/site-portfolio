@@ -8,10 +8,11 @@ export default function AboutMe() {
   return (
     <Container id="quem-sou">
       <div className="main_box">
-        <h1>Olá, eu sou o Marcus! 👋</h1>
+        <h1>Olá, me chamo Marcus! 👋</h1>
         <p>
-          Eu sou um programador de softwares autodidata com habilidades voltadas para a programação
-          do front-end e back-end de aplicações web e apaixonado por programar.
+          Eu sou um desenvolvedor
+          <strong> full-stack </strong>
+          autodidata especializado em construir experiências digitais únicas.
         </p>
         <div className="inline_main_info_buttons">
           <a href="https://wa.me/5551992052353" target="_blank" rel="noreferrer">
@@ -22,7 +23,7 @@ export default function AboutMe() {
           </a>
           <HashLink smooth to="#projetos">
             <button type="button" className="see_portfolio">
-              Ver portfolio
+              Ver projetos
             </button>
           </HashLink>
         </div>

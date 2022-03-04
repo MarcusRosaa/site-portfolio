@@ -83,7 +83,9 @@ export default function Footer() {
       </Bottom>
 
       <Rights>
-        &copy; Todos os direitos reservados
+        <a href="https://github.com/MarcusRosaa/site-portfolio" target="_blank" rel="noreferrer">
+          Desenvolvido por Marcus Rosa
+        </a>
       </Rights>
     </Container>
   );

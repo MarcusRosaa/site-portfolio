@@ -5,7 +5,7 @@ export const Container = styled.footer`
   background: linear-gradient(0deg, rgba(22,24,27,1) 3%, rgba(52,56,63,1) 69%, rgba(53,57,64,1) 100%);
   border-radius: 60px 60px 0 0;
   margin-top: 70px;
-  padding-bottom: 64px;
+  padding-bottom: 32px;
 `;
 
 export const InnerContainer = styled.div`
@@ -170,7 +170,11 @@ export const BottomMedia = styled.div`
 export const Rights = styled.p`
   width: 100%;
   text-align: center;
-  color: #fff;
-  font-size: 14px;
 
+  a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+
+  }
 `;
