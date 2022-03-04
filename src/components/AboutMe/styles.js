@@ -96,14 +96,13 @@ export const Container = styled.div`
   }
 
   .main_image {
-    width: 48%;
+    width: 40%;
     min-width: 20%;
     display: flex;
     justify-content: center;
 
     img {
       width: 100%;
-      max-width: 450px;
       object-fit: fill;
     }
   }

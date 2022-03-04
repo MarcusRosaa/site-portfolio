@@ -1,18 +1,46 @@
 import styled from 'styled-components';
+import circularBG from '../../assets/images/circular_bg.svg';
 
 export const Container = styled.div`
   margin: 0 16px;
 `;
 
-export const CircularBg = styled.div`
+export const CircleContainer = styled.div`
   width: 100%;
-  height: 100%;
-  border: 20px solid #25282d;
-  background-color: transparent;
+  max-width: 1300px;
+  height: 290px;
   position: absolute;
-  top: -70%;
-  left: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: -10;
-  border-radius: 40%;
-  opacity: 0.2;
+  background: url(${circularBG}) no-repeat 0 0;
+  background-size: cover;
+  background-position: bottom;
+
+ @media screen and  (max-width: 1299px) {
+  transform: translate(-50%, -50%);
+  top: 20%;
+ }
+
+
+ @media screen and  (max-width: 1024px) {
+   transform: translate(-50%, 50%);
+   top: -30%;
+  }
+
+@media screen and  (max-width: 768px) {
+  transform: translate(-50%, 50%);
+  top: -35%;
+}
+
+@media screen and  (max-width: 620px) {
+  transform: translate(-50%, 50%);
+  top: -45%;
+}
+
+ @media screen and  (max-width: 425px) {
+  transform: translate(-50%, 50%);
+  top: -46%;
+ }
 `;
