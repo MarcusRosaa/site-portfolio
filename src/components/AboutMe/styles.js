@@ -87,7 +87,7 @@ export const Container = styled.div`
 
         &:hover {
           filter: brightness(1.5);
-          box-shadow:  0px 4px 10px rgba(134,158,175,0.08);
+          box-shadow:  0px 4px 10px 0 rgba(134,158,175,0.04);
         }
       }
 

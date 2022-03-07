@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import circularBG from '../../assets/images/circular_bg.svg';
+import circularBG from '../../assets/images/circular_bg.png';
 
 export const Container = styled.div`
   margin: 0 16px;
@@ -7,16 +7,17 @@ export const Container = styled.div`
 
 export const CircleContainer = styled.div`
   width: 100%;
-  max-width: 1300px;
-  height: 290px;
+  max-width: 100%;
+  height: 380px;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: -10;
-  background: url(${circularBG}) no-repeat 0 0;
+  /* background: url(${circularBG}) no-repeat 0 0; */
   background-size: cover;
-  background-position: bottom;
+  background-position: unset;
 
  @media screen and  (max-width: 1299px) {
   transform: translate(-50%, -50%);

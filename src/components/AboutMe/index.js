@@ -12,7 +12,10 @@ export default function AboutMe() {
         <p>
           Eu sou um desenvolvedor
           <strong> full-stack </strong>
-          autodidata especializado em construir aplicações web modernas e escaláveis.
+          autodidata especializado em construir aplicações web com
+          <strong> React.js </strong>
+          e
+          <strong> Node.js </strong>
         </p>
         <div className="inline_main_info_buttons">
           <a href="https://wa.me/5551992052353" target="_blank" rel="noreferrer">

@@ -20,7 +20,7 @@ export default function Skills() {
         <Card>
           <img src={javascriptIcon} alt="" />
           <p>
-            Javascript avançado ES6+
+            Javascript avançado (ES6+)
           </p>
         </Card>
 

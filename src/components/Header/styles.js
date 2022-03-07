@@ -16,23 +16,25 @@ export const Container = styled.header`
     a {
       color: #fff;
       position: relative;
+      display: inline-block;
     }
 
-    a.nav-item::before {
+    a.nav-item::after {
       content: "";
       position: absolute;
-      z-index: 2;
+      width: 100%;
+      height: 2px;
+      transform: scaleX(0);
+      bottom: 0;
       left: 0;
-      right: 100%;
-      bottom: -3px;
-      margin-top: 20px;
-      background: #fff;
-      height: 1px;
-      transition: right 0.3s ease-out;
+      background-color: #fff;
+      transform-origin: bottom right;
+      transition: transform 0.3s ease-out;
     }
 
-    a.nav-item:hover::before {
-      right: 0;
+    a.nav-item:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
     }
 
     a.call-to-action {
